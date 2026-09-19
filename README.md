@@ -67,36 +67,3 @@ The GRAG module returns a ranked set of candidate destinations together with:
 * Constraint satisfaction
 * Supporting graph evidence
 * Evidence paths
-
-## Scope
-
-This folder contains **only the Graph-RAG retrieval component** of the TravelGraphRAG framework.
-
-The following components are **not included**:
-
-* LLM-based generation
-* Prompt engineering
-* LLM fine-tuning
-* Response generation
-
-## Running
-
-Install the required dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the Graph-RAG pipeline:
-
-```bash
-python <main_grag_script>.py
-```
-
-The implementation retrieves and ranks destinations using the hybrid Graph-RAG approach described in the paper.
-
-## Reference
-
-This implementation corresponds to the Graph-RAG methodology described in:
-
-**TravelGraphRAG: Hybrid Graph-RAG for Constraint-Aware Tourism Recommendation**
