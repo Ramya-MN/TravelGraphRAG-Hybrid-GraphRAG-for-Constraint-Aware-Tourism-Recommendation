@@ -1,4 +1,4 @@
-# Graph-RAG Module
+# Graph-RAG Module 
 
 This folder contains the **Graph-RAG (GRAG) component** of **TravelGraphRAG: Hybrid Graph-RAG for Constraint-Aware Tourism Recommendation**.
 
